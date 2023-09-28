@@ -1,0 +1,70 @@
+body{
+    background-color: aqua;
+}
+#u{
+   text-align: center;
+   margin: 0 85px;
+   background-color: white;
+}
+
+.uno{
+    width: 100%;
+    height: 150px;
+}
+
+#dos li{
+    font-size: 1rem;
+    margin-top: 20px;
+    text-decoration:underline;
+    text-decoration-thickness: 5px;
+    color: darkred;
+    color: rgb(153, 148, 148);
+    list-style: none;
+    text-align: left;
+}
+
+#dos li h1{
+    text-align: center;
+}
+
+
+#dos h2{
+    text-align: left;
+    margin-top: 25px;
+    font-size: 1.50rem;
+    color: rgb(153, 148, 148);
+}
+
+#dos p{
+    text-align: left;
+    color: rgb(153, 148, 148);
+    margin-top: 20px;
+}
+header, nav{
+    background-color: black;
+    height: 1000px;
+}
+
+section{
+ background-color: black;
+ height: 200px; 
+ 
+}
+
+section ol{
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+section ol li{
+    
+    text-decoration: none;
+    list-style: none;
+}
+
+@media(min-width: 300px){
+header, nav, section{
+    height: 30000;
+}
+
+}
